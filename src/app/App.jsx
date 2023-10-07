@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
-import Headermain from "../header";
+import Headermain from "../header/Index";
 import "./App.css";
 
 function _ScrollToTop(props) {
@@ -20,7 +20,8 @@ const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    // <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <ScrollToTop>
         <Headermain />
         <AppRoutes />

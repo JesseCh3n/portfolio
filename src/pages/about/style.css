@@ -69,9 +69,9 @@
     margin: 10px; /* Add some margin between the cards */
     border: 1px solid #00000000;
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(101, 255, 114, 0.863);
+    box-shadow: 0 2px 5px rgba(255, 129, 101, 0.863);
     padding: 15px;
-    background-color: #1efc43cb;
+    background-color: #E30118;
     position: relative; /* Add relative positioning for the shadow illusion */
     transform: perspective(1px) translateZ(0); /* Add transform for hovering effect */
     transition: transform 0.3s ease; /* Add transition for smooth animation */
@@ -89,7 +89,7 @@
 }
   .skill-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgb(123, 248, 112);
+    box-shadow: 0 4px 8px rgba(255, 129, 101, 0.863);
 }
 
 .card-title {

@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "./Style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
@@ -52,7 +52,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/about">
                     <div id="button_h" className="ac_btn btn">
-                      About Me
+                      Resume
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
