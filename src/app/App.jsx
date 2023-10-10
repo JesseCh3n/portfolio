@@ -4,7 +4,7 @@ import {
   BrowserRouter as Router,
   useLocation,
 } from "react-router-dom";
-import withRouter from "../hooks/withRouter";
+// import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header/Index";
 import "./App.css";
@@ -16,16 +16,18 @@ function _ScrollToTop(props) {
   }, [pathname]);
   return props.children;
 }
-const ScrollToTop = withRouter(_ScrollToTop);
+// const ScrollToTop = withRouter(_ScrollToTop);
+// console.log(_ScrollToTop);
+// console.log(ScrollToTop);
 
 export default function App() {
   return (
     // <Router basename={process.env.PUBLIC_URL}>
     <Router>
-      <ScrollToTop>
+      <_ScrollToTop>
         <Headermain />
         <AppRoutes />
-      </ScrollToTop>
+      </_ScrollToTop>
     </Router>
   );
 }

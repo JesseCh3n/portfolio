@@ -1,35 +1,39 @@
-### Description
+# My Portfolio
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-A simple portfolio template for Computer Science and Cybersecurity professionals built with React. 
+## Description
 
-![react portfoiio](src/assets/images/page.gif)
+This is my personal portfolio page! It showcases the projects I have done so far in my coding journey. 
 
-### Setup
+## Table of Contents
 
-**Install the git repo**
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+- [How to Contribute](#how%20to%20contribute)
+- [Tests](#tests)
 
-<pre>git clone https://github.com/Duerme/cybersecurity-portfolio-webpage.git</pre>
+## Installation
 
-**Install yarn**
+N/A
 
-Install yarn to test and build the website. You can use the link [here](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable).
- 
-**Install required dependencies**
+## Usage
 
-<pre>yarn install</pre>
+You can view my porfolio via this [link]().
+![alt screenshot](src/assets/images/Webpage.png)
 
-**Start the server**
+## Credits
 
-<pre>yarn start</pre>
+Credit to Coding Bootcamp.
 
-**Build the web-page**
+## License
+[MIT](https://opensource.org/licenses/MIT)
 
-<pre>yarn build</pre>
+## How to Contribute
 
-### More
+N/A
 
-Modify pages content in  `src/content_option.js`.
+## Tests
 
-### Thanks!
-
-Like the page? Leave a ⭐! 
+N/A
