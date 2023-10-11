@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logotext ,socialprofils } from "../content_option";
-import Themetoggle from "../components/themetoggle/index";
+import { logotext ,socialprofils } from "../content_option.js";
+import Themetoggle from "../components/themetoggle/index.jsx";
 
 const Headermain = () => {
   const [isActive, setActive] = useState("false");
