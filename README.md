@@ -26,10 +26,11 @@ You can view my porfolio via this [link]().
 ## Credits
 
 Credit to Coding Bootcamp.
+[Source code](https://github.com/ubaimutl/react-portfolio) 
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)
-[Source code](https://github.com/ubaimutl/react-portfolio) 
+
 
 ## How to Contribute
 
