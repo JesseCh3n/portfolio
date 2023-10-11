@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 // import withRouter from "../hooks/withRouter";
 import AppRoutes from "./Routes";
-import Headermain from "../header/Index";
+import Headermain from "../header/index";
 import "./App.css";
 
 function _ScrollToTop(props) {

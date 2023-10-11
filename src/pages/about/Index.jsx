@@ -1,5 +1,5 @@
 import React from "react";
-import "./Style.css";
+import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Row, Col, Card, Container } from "react-bootstrap";
 import {

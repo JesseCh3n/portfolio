@@ -2,10 +2,10 @@ import React from "react";
 import { Route, Routes} from "react-router-dom";
 // import withRouter from "../hooks/withRouter"
 import { useLocation } from 'react-router-dom';
-import { Home } from "../pages/home/Index";
-import { Portfolio } from "../pages/portfolio/Index";
-import { ContactUs } from "../pages/contact/Index";
-import { About } from "../pages/about/Index";
+import { Home } from "../pages/home/index";
+import { Portfolio } from "../pages/portfolio/index";
+import { ContactUs } from "../pages/contact/index";
+import { About } from "../pages/about/index";
 import { Socialicons } from "../components/socialicons/Index";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
