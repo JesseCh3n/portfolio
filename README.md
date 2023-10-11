@@ -21,7 +21,7 @@ N/A
 ## Usage
 
 You can view my porfolio via this [link]().
-![alt screenshot](src/assets/images/Webpage.png)
+![alt screenshot](./Webpage.PNG)
 
 ## Credits
 

@@ -5,7 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 // import withRouter from "../hooks/withRouter";
-import AppRoutes from "./routes";
+import AppRoutes from "./Routes";
 import Headermain from "../header/Index";
 import "./App.css";
 
