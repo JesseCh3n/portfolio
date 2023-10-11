@@ -6,7 +6,7 @@ import { Home } from "../pages/home/Index.jsx";
 import { Portfolio } from "../pages/portfolio/Index.jsx";
 import { ContactUs } from "../pages/contact/Index.jsx";
 import { About } from "../pages/about/Index.jsx";
-import Socialicons from "../components/socialicons/Index.jsx";
+import Socialicons from "../components/Socialicons/Index.jsx";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
 
 
