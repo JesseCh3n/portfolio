@@ -1,6 +1,6 @@
 //Hello!!! test commit
 import React from "react";
-import "./Style.css";
+import "./socialiconsStyle.css";
 import {
   FaGithub,
   FaTwitter,
@@ -9,7 +9,7 @@ import {
   FaYoutube,
   FaTwitch,
 } from "react-icons/fa";
-import { socialprofils } from "../../content_option.js";
+import { socialprofils } from "../content_option";
 
 const Socialicons = () => {
   return (
