@@ -11,7 +11,7 @@ import {
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option.js";
 
-export const Socialicons = (params) => {
+const Socialicons = () => {
   return (
     <div className="stick_follow_icon">
       <ul>
@@ -62,3 +62,5 @@ export const Socialicons = (params) => {
     </div>
   );
 };
+
+export default Socialicons;
