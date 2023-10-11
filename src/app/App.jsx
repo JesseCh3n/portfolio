@@ -5,8 +5,8 @@ import {
   useLocation,
 } from "react-router-dom";
 // import withRouter from "../hooks/withRouter";
-import AppRoutes from "./Routes";
-import Headermain from "../header/index";
+import AppRoutes from "./routes";
+import Headermain from "../header/Index";
 import "./App.css";
 
 function _ScrollToTop(props) {
